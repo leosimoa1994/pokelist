@@ -1,0 +1,48 @@
+* {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 18rem;
+}
+
+img {
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.imgLoading {
+  width: 100%;
+  max-width: 1120px;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeform {
+  width: 100%;
+  max-width: 1120px;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: white;
+  border: 0px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
