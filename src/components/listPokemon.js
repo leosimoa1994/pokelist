@@ -52,7 +52,11 @@ function ListPokemon() {
   }
 
   function rigth() {
-    setPokeItem((oldpokemonitem) => oldpokemonitem + 1);
+    if (pokeItem === pokeimg.length - 1) {
+      setPokeItem(pokeimg.length - 1);
+    } else {
+      setPokeItem((oldpokemonitem) => oldpokemonitem + 1);
+    }
   }
 
   if (loading) {
